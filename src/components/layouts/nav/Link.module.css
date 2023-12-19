@@ -1,0 +1,11 @@
+.link, .active {
+  @apply py-5 px-6 font-medium transition;
+}
+
+.link {
+  @apply text-white hover:text-orange-400 hover:bg-stone-900;
+}
+
+.active {
+  @apply text-orange-700;
+}

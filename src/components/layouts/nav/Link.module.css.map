@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAFA,KAEK,EAGL,OAAO,CALI;EACT,MAAM,CAAN,gCAAM;CAAsC;;AAC9C,AAAA,KAAK,CAAC;EAEJ,MAAM,CAAN,mDAAM;CAAyD;;AACjE,AAAA,OAAO,CAAC;EAEN,MAAM,CAAN,eAAM;CAAqB",
+    "sources": [
+        "Link.module.sass"
+    ],
+    "names": [],
+    "file": "Link.module.css"
+}

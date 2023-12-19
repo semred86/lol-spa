@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-900 text-slate-200
+  }
+
+  h1 {
+    @apply font-black text-2xl my-6 text-center text-slate-200
+  }
+
+  attention {
+    @apply text-amber-500
+  }
+
+  passive {
+    @apply text-red-500
+  }
+}
+
+@layer utilities {
+  .sceleton {
+    @apply relative overflow-hidden bg-stone-800 after:content-[''] after:block after:absolute after:z-0 after:top-0 after:left-0 after:right-0 after:h-full after:bg-no-repeat after:animate-glitter after:translate-x-[-100%] after:bg-gradient-to-r after:from-stone-800 after:via-stone-700 after:to-stone-800
+  }
+}
