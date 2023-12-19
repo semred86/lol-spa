@@ -33,7 +33,9 @@ const root = ReactDOM.createRoot(
 root.render(
   // <React.StrictMode>
   <Provider store={store}>
-    <BrowserRouter basename="/lol-spa">
+    <BrowserRouter
+      basename={process.env.NODE_ENV === "production" ? "/lol-spa" : "/"}
+    >
       <App />
     </BrowserRouter>
   </Provider>
